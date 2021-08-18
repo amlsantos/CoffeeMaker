@@ -4,8 +4,8 @@ namespace CoffeeMaker
 {
     public class WarmerPlate : IObserver<WarmerPlateStatus>
     {
-        private readonly ICoffeeMaker _hardware;
-        public WarmerPlate(ICoffeeMaker hardware)
+        private readonly ICoofeeMaker _hardware;
+        public WarmerPlate(ICoofeeMaker hardware)
         {
             if (hardware == null)
                 throw new ArgumentNullException("hardware");

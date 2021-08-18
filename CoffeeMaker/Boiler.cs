@@ -4,10 +4,10 @@ namespace CoffeeMaker
 {
     public class Boiler : IObserver<BrewButtonStatus>, IObserver<BoilerStatus>
     {
-        private readonly ICoffeeMaker _hardware;
+        private readonly ICoofeeMaker _hardware;
         private bool hasWater;
 
-        public Boiler(ICoffeeMaker hardware)
+        public Boiler(ICoofeeMaker hardware)
         {
             if (hardware == null)
                 throw new ArgumentNullException("hardware");

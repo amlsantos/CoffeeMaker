@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker", "CoffeeMaker\CoffeeMaker.csproj", "{07A29983-B897-4C2B-9F29-F0CAC0F5BB0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCoffee", "MakeCoffee\MakeCoffee.csproj", "{4D4BAE01-E1D0-426D-85DF-93F2C10A3227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.UnitTests", "UnitTests\CoffeeMaker.UnitTests.csproj", "{1E823A85-E073-4E6E-B0AF-583F07010A63}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeCoffee", "MakeCoffee\MakeCoffee.csproj", "{4D4BAE01-E1D0-426D-85DF-93F2C10A3227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeMaker", "CoffeeMaker\CoffeeMaker.csproj", "{52E828C7-9AED-4D20-9290-ED5DC8E27507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07A29983-B897-4C2B-9F29-F0CAC0F5BB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07A29983-B897-4C2B-9F29-F0CAC0F5BB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07A29983-B897-4C2B-9F29-F0CAC0F5BB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07A29983-B897-4C2B-9F29-F0CAC0F5BB0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E823A85-E073-4E6E-B0AF-583F07010A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E823A85-E073-4E6E-B0AF-583F07010A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E823A85-E073-4E6E-B0AF-583F07010A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E823A85-E073-4E6E-B0AF-583F07010A63}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D4BAE01-E1D0-426D-85DF-93F2C10A3227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D4BAE01-E1D0-426D-85DF-93F2C10A3227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D4BAE01-E1D0-426D-85DF-93F2C10A3227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D4BAE01-E1D0-426D-85DF-93F2C10A3227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E828C7-9AED-4D20-9290-ED5DC8E27507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E828C7-9AED-4D20-9290-ED5DC8E27507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E828C7-9AED-4D20-9290-ED5DC8E27507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E828C7-9AED-4D20-9290-ED5DC8E27507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
