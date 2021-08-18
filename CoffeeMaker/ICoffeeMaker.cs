@@ -1,6 +1,6 @@
 ﻿namespace CoffeeMaker
 {
-    public interface ICoffeeMakerAPI
+    public interface ICoffeeMaker
     {
         /*
         * This function returns the status of the warmer-plate
