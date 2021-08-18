@@ -4,8 +4,8 @@ namespace CoffeeMaker
 {
     public class WarmerPlate : IObserver<WarmerPlateStatus>
     {
-        private readonly ICoofeeMaker _hardware;
-        public WarmerPlate(ICoofeeMaker hardware)
+        private readonly ICoffeeMaker _hardware;
+        public WarmerPlate(ICoffeeMaker hardware)
         {
             if (hardware == null)
                 throw new ArgumentNullException("hardware");
@@ -15,12 +15,10 @@ namespace CoffeeMaker
 
         public void OnCompleted()
         {
-            throw new NotImplementedException();
         }
 
         public void OnError(Exception error)
         {
-            throw new NotImplementedException();
         }
 
         public void OnNext(WarmerPlateStatus value)

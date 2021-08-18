@@ -4,11 +4,11 @@ namespace CoffeeMaker
 {
     public class IndicatorLight : IObserver<BoilerStatus>, IObserver<BrewButtonStatus>
     {
-        private readonly ICoofeeMaker _hardware;
+        private readonly ICoffeeMaker _hardware;
         private bool hasWater;
         private bool isBrewing;
 
-        public IndicatorLight(ICoofeeMaker hardware)
+        public IndicatorLight(ICoffeeMaker hardware)
         {
             if (hardware == null)
                 throw new ArgumentNullException("hardware");
@@ -18,12 +18,10 @@ namespace CoffeeMaker
 
         public void OnCompleted()
         {
-            throw new NotImplementedException();
         }
 
         public void OnError(Exception error)
         {
-            throw new NotImplementedException();
         }
 
         public void OnNext(BoilerStatus value)

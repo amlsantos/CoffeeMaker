@@ -4,9 +4,9 @@ namespace CoffeeMaker
 {
     public class ReleifValve : IObserver<WarmerPlateStatus>
     {
-        private readonly ICoofeeMaker _hardware;
+        private readonly ICoffeeMaker _hardware;
 
-        public ReleifValve(ICoofeeMaker hardware)
+        public ReleifValve(ICoffeeMaker hardware)
         {
             if (hardware == null)
                 throw new ArgumentNullException("hardware");
@@ -16,12 +16,10 @@ namespace CoffeeMaker
 
         public void OnCompleted()
         {
-            throw new NotImplementedException();
         }
 
         public void OnError(Exception error)
         {
-            throw new NotImplementedException();
         }
 
         public void OnNext(WarmerPlateStatus value)

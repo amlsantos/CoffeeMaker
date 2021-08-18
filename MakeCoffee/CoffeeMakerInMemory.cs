@@ -2,7 +2,7 @@
 
 namespace MakeCoffee
 {
-    public class CoffeeMakerInMemory : ICoofeeMaker
+    public class CoffeeMakerInMemory : ICoffeeMaker
     {
         public WarmerPlateStatus WarmerPlateStatus { get; set; }
         public BoilerStatus BoilerStatus { get; set; }
